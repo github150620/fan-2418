@@ -11,5 +11,6 @@ Make a fan with 3D printer.
 ## Impeller
 
 ## Frame
+![image](https://github.com/github150620/fan2418/blob/master/frame-preview.png)
 
 ## Finished
