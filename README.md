@@ -7,8 +7,10 @@ Make a fan with 3D printer.
 * frame
 
 ## Motor
+![image](https://github.com/github150620/fan2418/blob/master/motor.jpg)
 
 ## Impeller
+![image](https://github.com/github150620/fan2418/blob/master/impeller-entity.jpg)
 
 ## Frame
 ![image](https://github.com/github150620/fan2418/blob/master/frame-preview.png)
