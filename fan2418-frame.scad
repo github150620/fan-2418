@@ -36,32 +36,30 @@ difference(){
 }
 
 // flow guide
-union(){
-    difference(){
-        cylinder(d=82,h=height,$fn=32);
-        cylinder(d=79,h=100,$fn=32,center=true);
-        
-        // anchor
-        translate([0,0,height/2]){
-            rotate([90,0,0]){
-                translate([0,0,39]){
-                    cylinder(h=4,d=1.8,$fn=8);
-                }
+difference(){
+    cylinder(d=82,h=height,$fn=32);
+    cylinder(d=79,h=100,$fn=32,center=true);
+
+    // anchor
+    translate([0,0,height/2]){
+        rotate([90,0,0]){
+            translate([0,0,39]){
+                cylinder(h=4,d=1.8,$fn=8);
             }
-            rotate([-90,0,0]){
-                translate([0,0,39]){
-                    cylinder(h=4,d=1.8,$fn=8);
-                }
+        }
+        rotate([-90,0,0]){
+            translate([0,0,39]){
+                cylinder(h=4,d=1.8,$fn=8);
             }
-            rotate([0,90,0]){
-                translate([0,0,39]){
-                    cylinder(h=4,d=1.8,$fn=8);
-                }
+        }
+        rotate([0,90,0]){
+            translate([0,0,39]){
+                cylinder(h=4,d=1.8,$fn=8);
             }
-            rotate([0,-90,0]){
-                translate([0,0,39]){
-                    cylinder(h=4,d=1.8,$fn=8);
-                }
+        }
+        rotate([0,-90,0]){
+            translate([0,0,39]){
+                cylinder(h=4,d=1.8,$fn=8);
             }
         }
     }
