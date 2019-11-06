@@ -1,7 +1,7 @@
 width = 84;
 height = 40;
 
-motor_diameter = 24.2+0.5;
+motor_diameter = 24.4+0.3;
 
 // motor base
 difference(){
