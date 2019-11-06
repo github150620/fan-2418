@@ -12,5 +12,6 @@ Make a fan with 3D printer.
 
 ## Frame
 ![image](https://github.com/github150620/fan2418/blob/master/frame-preview.png)
+![image](https://github.com/github150620/fan2418/blob/master/frame-entity.jpg)
 
 ## Finished
